@@ -61,7 +61,5 @@ $('#resetButton').on('click', function() {
                     <option value="5">Gyva renginių transliacija</option>\
                     <option value="65">Kita</option>\
                     </select>';
-    FormValidation.AddOn.reCaptcha2.reset('captchaContainer');
-    $('#contactForm').formValidation('resetForm', true);
     $('#change').html(pasirinkimas);
 });
